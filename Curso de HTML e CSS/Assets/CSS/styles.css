@@ -1,5 +1,33 @@
-.caixa {
+.heading {
+    transition: all 300ms ease-in-out;
+}
+body {
+    background: gray;
+}
+
+.heading:hover {
     background: red;
-    height: 120px;
-    width: 120px;
+}
+
+a{
+    color: darkorange;
+}
+
+a:link {
+    color: deeppink;
+}
+a:visited {
+    color: deepskyblue;
+}
+a:hover {
+    background: darkslateblue;
+    color: white;
+    text-decoration: none;
+}
+input:checked + p {
+    background: yellow;
+}
+#Enviar {
+    box-shadow: gray;
+
 }
