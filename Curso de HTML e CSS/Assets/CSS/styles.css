@@ -1,6 +1,8 @@
-ol li:nth-child(odd) {
-    background: tomato;
+p::first-letter {
+    font-size: 60px;
+    display: block;
+    float: left;
 }
-ol li::after {
-    content: '*';
+body {
+    background-color: gray;
 }
