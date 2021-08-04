@@ -1,33 +1,6 @@
-.heading {
-    transition: all 300ms ease-in-out;
+ol li:nth-child(odd) {
+    background: tomato;
 }
-body {
-    background: gray;
-}
-
-.heading:hover {
-    background: red;
-}
-
-a{
-    color: darkorange;
-}
-
-a:link {
-    color: deeppink;
-}
-a:visited {
-    color: deepskyblue;
-}
-a:hover {
-    background: darkslateblue;
-    color: white;
-    text-decoration: none;
-}
-input:checked + p {
-    background: yellow;
-}
-#Enviar {
-    box-shadow: gray;
-
+ol li::after {
+    content: '*';
 }
