@@ -6,3 +6,15 @@ p::first-letter {
 body {
     background-color: gray;
 }
+
+p::first-line {
+    background: blue;
+}
+
+p::selection {
+    background: black;
+    color: white;
+}
+::placeholder {
+    color: red;
+}
