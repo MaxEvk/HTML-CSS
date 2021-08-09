@@ -9,19 +9,22 @@
 
  .flex-container {
      display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     align-items: flex-start;
+     align-content: stretch;
      background: gray;
-     height: 500px;
+     height: 640px;
+     width: 960px;
  }
 
  .flex-item {
+     width: 33.33%;
      color: white;
      background: red;
-     margin: 10px;
+    
  }
 
  .flex-item:nth-child(3) {
-     font-size: 40px;
+     
  }
