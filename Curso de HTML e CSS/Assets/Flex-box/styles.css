@@ -10,21 +10,14 @@
  .flex-container {
      display: flex;
      justify-content: space-between;
-     flex-wrap: wrap;
-     align-items: flex-start;
-     align-content: stretch;
      background: gray;
-     height: 640px;
-     width: 960px;
  }
 
  .flex-item {
-     width: 33.33%;
+     width: 100%;
      color: white;
      background: red;
+     margin: 10px;
     
  }
 
- .flex-item:nth-child(3) {
-     
- }
