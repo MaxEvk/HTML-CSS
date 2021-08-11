@@ -1,23 +1,34 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+body {
+    font-size: 24px;
 }
- body {
-     background: gray;
- }
 
- .flex-container {
-     display: flex;
-     justify-content: space-between;
-     background: gray;
- }
+p{
+    margin: 0 0 24px;
+}
 
- .flex-item {
-     width: 100%;
-     color: white;
-     background: red;
-     margin: 10px;
+.two-columns {
+    display: flex;
+}
+
+.two-columns .col {
+    display: flex;
+    flex-direction: column;
+    background: gray;
+    margin: 15px;
+    padding: 30px;
+}
+
+.gallery {
+    flex-flow: row wrap;
+    display: flex;
     
- }
+}
 
+.gallery .img {   
+    flex: 1 0 20%; 
+    height: 50px;
+    background: blue;
+    margin: 10px;
+}
