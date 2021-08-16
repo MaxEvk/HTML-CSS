@@ -2,6 +2,7 @@
 .main-bg {
     background-image: url(../IMG/main-bg.svg.svg);
     background-size: cover;
+    color: var(--white-color);
 }
 
 .section {
@@ -16,4 +17,8 @@
     max-width: 120rem;
     margin: 0 auto;
     padding: var(--gap);
+}
+
+.menu-spacing {
+    height: 65px;
 }
