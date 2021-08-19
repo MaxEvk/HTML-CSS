@@ -18,6 +18,7 @@ body {
 
  h1, h2, h3, h4, h5, h6 {
      font-family: 'Montserrat', sans-serif;
+     margin: auto;
  }
 
  h1 {
@@ -30,6 +31,7 @@ body {
     margin-bottom: 5rem;
     text-transform: uppercase;
     line-height: 1.2;
+    margin: auto;
 }
 h3 {
     font-size: 5rem;  
