@@ -228,6 +228,8 @@
     }
     .close-menu:checked~.close-menu-label::after {
         content: '✖';
+        font-size: 3.4rem;
+       
     }
     .menu-spacing {
         display: none;
