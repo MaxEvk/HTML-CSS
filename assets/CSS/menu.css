@@ -31,6 +31,7 @@
 }
 
 .menu ul li a {
+    margin-top: auto;
     display: block;
     padding: 2rem;
     font-size: 1.8rem;

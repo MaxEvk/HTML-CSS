@@ -87,7 +87,8 @@
     grid-column: span 2;
 }
 
-.contact-form .form-grid {
+.contact-form 
+.form-grid {
     border: none;
     display: flex;
     flex-direction: row;
